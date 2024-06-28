@@ -8,7 +8,7 @@ import { StreamRowsOptions } from './types/StreamRowsOptions';
 export class Statement {
   private rows: any[] = null;
   private stmt: any = null;
-  private executePromise: Promise<Statement> = null;
+  private executePromise: Promise<void> = null;
 
   /**
    * @param connection the connection object from the SDK
@@ -29,7 +29,7 @@ export class Statement {
   execute() {
     if (this.executePromise) { throw new StatementAlreadyExecutedError(); }
 
-    this.executePromise = new Promise((resolve, reject) => {
+    this.executePromise = new Promise<void>((resolve, reject) => {
       let startTime: number;
 
       this.executeOptions['complete'] = (err, stmt, rows) => {

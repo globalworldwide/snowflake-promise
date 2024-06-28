@@ -6,10 +6,10 @@
   "compilerOptions": {
     "rootDir": ".",
     "outDir": "build",
-    "target": "ES5",
-    "module": "commonjs",
+    "target": "es2022",
+    "module": "Node16",
     "sourceMap": true,
-    "lib": ["es5", "es2015.promise"],
+    "lib": [],
     "noImplicitReturns": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
