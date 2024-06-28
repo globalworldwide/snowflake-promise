@@ -1,4 +1,6 @@
-# snowflake-promise [![npm](https://img.shields.io/npm/v/snowflake-promise.svg)](https://www.npmjs.com/package/snowflake-promise) [![node](https://img.shields.io/node/v/snowflake-promise.svg)](https://www.npmjs.com/package/snowflake-promise)
+# @globalworldwide/snowflake-promise [![npm](https://img.shields.io/npm/v/snowflake-promise.svg)](https://www.npmjs.com/package/snowflake-promise) [![node](https://img.shields.io/node/v/snowflake-promise.svg)](https://www.npmjs.com/package/snowflake-promise)
+
+This is a (so-far) minimal fork of [snowflake-promise](https://www.npmjs.com/package/snowflake-promise).
 
 A Promise-based interface to your [Snowflake](https://www.snowflake.net/) data warehouse.
 
@@ -6,14 +8,14 @@ This is a wrapper for the [Snowflake SDK](https://www.npmjs.com/package/snowflak
 
 ## Installation
 
-* `npm i snowflake-promise`
+* `npm i @globalworldwide/snowflake-promise`
 
 ## Basic usage
 
 ```typescript
-const Snowflake = require('snowflake-promise').Snowflake;
+const Snowflake = require('@globalworldwide/snowflake-promise').Snowflake;
 // or, for TypeScript:
-import { Snowflake } from 'snowflake-promise';
+import { Snowflake } from '@globalworldwide/snowflake-promise';
 
 async function main() {
   const snowflake = new Snowflake({

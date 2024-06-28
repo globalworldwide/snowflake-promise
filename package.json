@@ -1,11 +1,10 @@
 {
-  "name": "snowflake-promise",
-  "version": "4.5.0",
+  "name": "@globalworldwide/snowflake-promise",
+  "version": "5.0.0-pre.1",
   "description": "A Promise-based, TypeScript-friendly wrapper for the Snowflake SDK",
-  "repository": "github:natesilva/snowflake-promise",
-  "bugs": "https://github.com/natesilva/snowflake-promise/issues",
+  "repository": "github:globalworldwide/snowflake-promise",
+  "bugs": "https://github.com/globalworldwide/snowflake-promise/issues",
   "license": "MIT",
-  "author": "Nate Silva <nate@natesilva.com>",
   "keywords": [
     "snowflake",
     "database",
