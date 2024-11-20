@@ -1,6 +1,6 @@
 {
   "name": "@globalworldwide/snowflake-promise",
-  "version": "6.0.0",
+  "version": "6.1.0",
   "description": "A Promise-based, TypeScript-friendly wrapper for the Snowflake SDK",
   "repository": "github:globalworldwide/snowflake-promise",
   "bugs": "https://github.com/globalworldwide/snowflake-promise/issues",
