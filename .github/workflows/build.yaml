@@ -2,9 +2,9 @@ name: build
 
 on:
   push:
-    branches: ['master']
+    branches: ["master"]
   pull_request:
-    branches: ['master']
+    branches: ["master"]
 
 jobs:
   build:
@@ -16,9 +16,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
       - run: npm ci
       - run: npm run prepare
