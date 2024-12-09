@@ -20,7 +20,7 @@
     "node": ">=20"
   },
   "dependencies": {
-    "snowflake-sdk": "^1.11.0"
+    "snowflake-sdk": "^1.15.0"
   },
   "devDependencies": {
     "rimraf": "^6.0.0",
